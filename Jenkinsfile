@@ -77,7 +77,7 @@ pipeline {
 	}*/
 
     
-	/*stage('Unit Testing') {
+	stage('Unit Testing') {
         	steps{
           	script {
 
@@ -90,7 +90,7 @@ pipeline {
                     	}
                      	step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])   
                       	}
-               	}*/
+               	}
    
     
 /* 	stage('Build Images') {
